@@ -14,13 +14,14 @@ java-daily-challenge/
     └── README.md
 ```
 
-Folder naming: `Day-226_Hello-World` — zero-padded day number, underscore, then the
-problem name in `Title-Case-With-Hyphens`. The Java file name matches its public class.
+Folder naming: `Day-001_Hello-World` — day number zero-padded to three digits,
+underscore, then the problem name in `Title-Case-With-Hyphens`. Three digits keeps the
+folder list sorting correctly past day 99. The Java file name matches its public class.
 
 ## Running a day
 
 ```bash
-cd Day-226_Hello-World && javac HelloWorld.java && java HelloWorld
+cd Day-001_Hello-World && javac HelloWorld.java && java HelloWorld
 ```
 
 Class files are gitignored, so compiling in place is safe.
@@ -29,7 +30,7 @@ Class files are gitignored, so compiling in place is safe.
 
 | Day | Problem | Topic | Solution |
 | --- | --- | --- | --- |
-| 226 | Hello World | Basics | [HelloWorld.java](Day-226_Hello-World/HelloWorld.java) |
+| 001 | Hello World | Basics | [HelloWorld.java](Day-001_Hello-World/HelloWorld.java) |
 
 ## Adding a day
 

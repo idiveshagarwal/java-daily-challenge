@@ -1,4 +1,4 @@
-# Day 226 — Hello World
+# Day 1 — Hello World
 
 ## Problem
 
