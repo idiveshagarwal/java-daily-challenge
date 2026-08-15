@@ -95,8 +95,76 @@ JVM        : OpenJDK 64-Bit Server VM
 javac produced two .class files from one .java file.
 ```
 
+## Packages
+
+`JavaFileStructure.java` above leaves the package slot commented out so it runs
+with a bare `javac`. Real code always declares one. The `packaged/` folder is the
+same anatomy done properly:
+
+```
+packaged/
+└── com/solifein/day02/
+    ├── PackagedApp.java          package com.solifein.day02;
+    └── util/
+        └── Greeter.java          package com.solifein.day02.util;
+```
+
+**The directory rule:** the package declaration must mirror the folder path
+exactly. `com/solifein/day02/util/Greeter.java` must declare
+`package com.solifein.day02.util;`. A mismatch fails at compile time.
+
+**Imports:** `Greeter` sits in a different package from `PackagedApp`, so it has
+to be imported — or written out in full every time. These are equivalent:
+
+```java
+import com.solifein.day02.util.Greeter;   // then: Greeter g = new Greeter(…)
+com.solifein.day02.util.Greeter g = …;    // no import needed
+```
+
+An import is only an alias so you can use the short name. It does **not** copy
+code into your file, and it costs nothing at runtime.
+
+**Access across packages:** `public` crosses package boundaries; no modifier
+("package-private") does not. `Greeter.internalOnly()` has no modifier, so
+un-commenting the call in `PackagedApp` is rejected by the compiler:
+
+```
+error: internalOnly() is not public in Greeter;
+       cannot be accessed from outside package
+```
+
+### Running the packaged version
+
+```bash
+cd packaged && javac -d out $(find com -name "*.java") && java -cp out com.solifein.day02.PackagedApp
+```
+
+Three things change once packages are involved:
+
+- `-d out` sends `.class` files to a separate output tree, keeping source clean.
+- `-cp out` tells the JVM where the package root is — **the root, not the class's
+  own folder**. This is the single most common beginner error.
+- You launch the **fully-qualified name** `com.solifein.day02.PackagedApp`, not
+  the bare class name.
+
+Output:
+
+```
+Hello, Divesh! — from com.solifein.day02.util.Greeter
+
+Short name     : Greeter
+Qualified name : com.solifein.day02.util.Greeter
+Written in full: java.time.LocalDate -> 2026-08-15
+
+This class     : com.solifein.day02.PackagedApp
+Its package    : com.solifein.day02
+```
+
 ## Takeaway
 
 One `.java` file is a *compilation unit*, not a *class*. The file name is bound
 only to its public type; the compiler is free to emit as many `.class` files as
 there are types inside.
+
+A package is a **namespace enforced by directory layout**, and the classpath is
+how the JVM is told where that layout begins.
