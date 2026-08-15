@@ -31,6 +31,7 @@ Class files are gitignored, so compiling in place is safe.
 | Day | Problem | Topic | Solution |
 | --- | --- | --- | --- |
 | 001 | Hello World | Basics | [HelloWorld.java](Day-001_Hello-World/HelloWorld.java) |
+| 002 | JDK, JRE, JVM & file structure | Fundamentals | [JavaFileStructure.java](Day-002_JDK-JRE-JVM/JavaFileStructure.java) |
 
 ## Adding a day
 
