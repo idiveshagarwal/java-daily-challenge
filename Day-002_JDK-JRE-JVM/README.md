@@ -103,22 +103,22 @@ same anatomy done properly:
 
 ```
 packaged/
-└── com/solifein/day02/
-    ├── PackagedApp.java          package com.solifein.day02;
+└── dev/divesh/day02/
+    ├── PackagedApp.java          package dev.divesh.day02;
     └── util/
-        └── Greeter.java          package com.solifein.day02.util;
+        └── Greeter.java          package dev.divesh.day02.util;
 ```
 
 **The directory rule:** the package declaration must mirror the folder path
-exactly. `com/solifein/day02/util/Greeter.java` must declare
-`package com.solifein.day02.util;`. A mismatch fails at compile time.
+exactly. `dev/divesh/day02/util/Greeter.java` must declare
+`package dev.divesh.day02.util;`. A mismatch fails at compile time.
 
 **Imports:** `Greeter` sits in a different package from `PackagedApp`, so it has
 to be imported — or written out in full every time. These are equivalent:
 
 ```java
-import com.solifein.day02.util.Greeter;   // then: Greeter g = new Greeter(…)
-com.solifein.day02.util.Greeter g = …;    // no import needed
+import dev.divesh.day02.util.Greeter;   // then: Greeter g = new Greeter(…)
+dev.divesh.day02.util.Greeter g = …;    // no import needed
 ```
 
 An import is only an alias so you can use the short name. It does **not** copy
@@ -136,7 +136,7 @@ error: internalOnly() is not public in Greeter;
 ### Running the packaged version
 
 ```bash
-cd packaged && javac -d out $(find com -name "*.java") && java -cp out com.solifein.day02.PackagedApp
+cd packaged && javac -d out $(find dev -name "*.java") && java -cp out dev.divesh.day02.PackagedApp
 ```
 
 Three things change once packages are involved:
@@ -144,20 +144,20 @@ Three things change once packages are involved:
 - `-d out` sends `.class` files to a separate output tree, keeping source clean.
 - `-cp out` tells the JVM where the package root is — **the root, not the class's
   own folder**. This is the single most common beginner error.
-- You launch the **fully-qualified name** `com.solifein.day02.PackagedApp`, not
+- You launch the **fully-qualified name** `dev.divesh.day02.PackagedApp`, not
   the bare class name.
 
 Output:
 
 ```
-Hello, Divesh! — from com.solifein.day02.util.Greeter
+Hello, Divesh! — from dev.divesh.day02.util.Greeter
 
 Short name     : Greeter
-Qualified name : com.solifein.day02.util.Greeter
+Qualified name : dev.divesh.day02.util.Greeter
 Written in full: java.time.LocalDate -> 2026-08-15
 
-This class     : com.solifein.day02.PackagedApp
-Its package    : com.solifein.day02
+This class     : dev.divesh.day02.PackagedApp
+Its package    : dev.divesh.day02
 ```
 
 ## Takeaway

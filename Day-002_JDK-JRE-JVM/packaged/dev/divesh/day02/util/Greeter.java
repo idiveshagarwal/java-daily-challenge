@@ -1,7 +1,7 @@
 // The package declaration must mirror the folder path exactly:
-//   com/solifein/day02/util/Greeter.java  ⇒  package com.solifein.day02.util;
+//   dev/divesh/day02/util/Greeter.java  ⇒  package dev.divesh.day02.util;
 // Get this wrong and javac fails before it ever looks at your code.
-package com.solifein.day02.util;
+package dev.divesh.day02.util;
 
 /**
  * Public, so it is visible outside its own package. This is the only reason
@@ -27,10 +27,10 @@ public class Greeter {
 
     /**
      * No modifier = package-private. Visible only inside
-     * com.solifein.day02.util. PackagedApp CANNOT call this — uncomment the
+     * dev.divesh.day02.util. PackagedApp CANNOT call this — uncomment the
      * call in PackagedApp.main and javac will reject it.
      */
     String internalOnly() {
-        return "package-private: only com.solifein.day02.util can see me";
+        return "package-private: only dev.divesh.day02.util can see me";
     }
 }

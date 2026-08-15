@@ -1,10 +1,10 @@
-// 1. Package first — matches the folder path com/solifein/day02.
-package com.solifein.day02;
+// 1. Package first — matches the folder path dev/divesh/day02.
+package dev.divesh.day02;
 
 // 2. Imports second. Greeter lives in a DIFFERENT package (…day02.util), so it
 //    must be imported — or written out in full as
-//    com.solifein.day02.util.Greeter every time it is used.
-import com.solifein.day02.util.Greeter;
+//    dev.divesh.day02.util.Greeter every time it is used.
+import dev.divesh.day02.util.Greeter;
 
 /**
  * Same anatomy as Day 2's JavaFileStructure, but placed in a real package so
@@ -31,7 +31,7 @@ public class PackagedApp {
         System.out.println("Its package    : " + PackagedApp.class.getPackageName());
 
         // Not allowed — internalOnly() is package-private and we are in
-        // com.solifein.day02, not com.solifein.day02.util. Uncommenting this
+        // dev.divesh.day02, not dev.divesh.day02.util. Uncommenting this
         // fails at COMPILE time, not runtime:
         //     error: internalOnly() is not public in Greeter;
         //            cannot be accessed from outside package

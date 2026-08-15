@@ -1,6 +1,6 @@
 // 1. Package declaration — optional, but if present it must be the very first
 //    statement in the file. Omitted here so the file compiles in place.
-//    e.g. package com.solifein.challenge;
+//    e.g. package dev.divesh.challenge;
 
 // 2. Imports — come after the package, before the type declaration.
 import java.time.LocalDate;
