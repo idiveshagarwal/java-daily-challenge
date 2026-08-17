@@ -274,7 +274,8 @@ var — local variable type inference (Java 10+)
    Integer.MAX_VALUE + 1 = -2147483648   <- now negative
    1_000_000 * 1_000_000       = -727379968   <- int maths
    1_000_000L * 1_000_000      = 1000000000000   <- long maths
-   Math.addExact throws instead: integer overflow
+   Math.addExact throws instead:      integer overflow
+   Math.multiplyExact catches the mul: integer overflow
 
 2. Floating point is binary, not decimal
    0.1 + 0.2            = 0.30000000000000004

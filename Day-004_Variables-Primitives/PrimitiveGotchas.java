@@ -33,10 +33,16 @@ public class PrimitiveGotchas {
         System.out.println("   1_000_000 * 1_000_000       = " + wrong + "   <- int maths");
         System.out.println("   1_000_000L * 1_000_000      = " + right + "   <- long maths");
 
+        // The …Exact family converts a silent wrap into a loud failure.
         try {
             Math.addExact(max, 1);
         } catch (ArithmeticException e) {
-            System.out.println("   Math.addExact throws instead: " + e.getMessage());
+            System.out.println("   Math.addExact throws instead:      " + e.getMessage());
+        }
+        try {
+            Math.multiplyExact(1_000_000, 1_000_000);
+        } catch (ArithmeticException e) {
+            System.out.println("   Math.multiplyExact catches the mul: " + e.getMessage());
         }
         System.out.println();
     }
