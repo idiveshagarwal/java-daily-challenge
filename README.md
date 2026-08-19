@@ -34,6 +34,7 @@ Class files are gitignored, so compiling in place is safe.
 | 002 | JDK, JRE, JVM & file structure | Fundamentals | [JavaFileStructure.java](Day-002_JDK-JRE-JVM/JavaFileStructure.java) |
 | 003 | Comments, keywords & javac | Fundamentals | [CommentsAndKeywords.java](Day-003_Comments-Keywords-Javac/CommentsAndKeywords.java) |
 | 004 | Variables & primitive data types | Fundamentals | [VariablesAndPrimitives.java](Day-004_Variables-Primitives/VariablesAndPrimitives.java) |
+| 005 | Type casting — implicit vs explicit | Types | [TypeCasting.java](Day-005_Type-Casting/TypeCasting.java) |
 
 ## Adding a day
 
