@@ -35,6 +35,7 @@ Class files are gitignored, so compiling in place is safe.
 | 003 | Comments, keywords & javac | Fundamentals | [CommentsAndKeywords.java](Day-003_Comments-Keywords-Javac/CommentsAndKeywords.java) |
 | 004 | Variables & primitive data types | Fundamentals | [VariablesAndPrimitives.java](Day-004_Variables-Primitives/VariablesAndPrimitives.java) |
 | 005 | Type casting — implicit vs explicit | Types | [TypeCasting.java](Day-005_Type-Casting/TypeCasting.java) |
+| 006 | Constants, final & literals | Types | [ConstantsAndFinal.java](Day-006_Constants-Final-Literals/ConstantsAndFinal.java) |
 
 ## Adding a day
 
