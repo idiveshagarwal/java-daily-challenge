@@ -38,6 +38,7 @@ Class files are gitignored, so compiling in place is safe.
 | 006 | Constants, final & literals | Types | [ConstantsAndFinal.java](Day-006_Constants-Final-Literals/ConstantsAndFinal.java) |
 | 007 | Arithmetic & assignment operators | Operators | [ArithmeticOperators.java](Day-007_Arithmetic-Assignment-Operators/ArithmeticOperators.java) |
 | 008 | Relational, logical & ternary operators | Operators | [RelationalOperators.java](Day-008_Relational-Logical-Ternary/RelationalOperators.java) |
+| 009 | Taking user input with Scanner | I/O | [ScannerBasics.java](Day-009_Scanner-Input/ScannerBasics.java) |
 
 ## Adding a day
 
