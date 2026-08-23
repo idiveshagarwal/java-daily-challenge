@@ -39,6 +39,7 @@ Class files are gitignored, so compiling in place is safe.
 | 007 | Arithmetic & assignment operators | Operators | [ArithmeticOperators.java](Day-007_Arithmetic-Assignment-Operators/ArithmeticOperators.java) |
 | 008 | Relational, logical & ternary operators | Operators | [RelationalOperators.java](Day-008_Relational-Logical-Ternary/RelationalOperators.java) |
 | 009 | Taking user input with Scanner | I/O | [ScannerBasics.java](Day-009_Scanner-Input/ScannerBasics.java) |
+| 010 | if, if-else & the else-if ladder | Conditionals | [IfBasics.java](Day-010_Conditionals/IfBasics.java) |
 
 ## Adding a day
 
