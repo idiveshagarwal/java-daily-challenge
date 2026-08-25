@@ -41,6 +41,7 @@ Class files are gitignored, so compiling in place is safe.
 | 009 | Taking user input with Scanner | I/O | [ScannerBasics.java](Day-009_Scanner-Input/ScannerBasics.java) |
 | 010 | if, if-else & the else-if ladder | Conditionals | [IfBasics.java](Day-010_Conditionals/IfBasics.java) |
 | 011 | Nested if — largest of three | Conditionals | [LargestOfThree.java](Day-011_Nested-If-Largest/LargestOfThree.java) |
+| 012 | switch-case — simple calculator | Conditionals | [Calculator.java](Day-012_Switch-Calculator/Calculator.java) |
 
 ## Adding a day
 
