@@ -42,6 +42,7 @@ Class files are gitignored, so compiling in place is safe.
 | 010 | if, if-else & the else-if ladder | Conditionals | [IfBasics.java](Day-010_Conditionals/IfBasics.java) |
 | 011 | Nested if — largest of three | Conditionals | [LargestOfThree.java](Day-011_Nested-If-Largest/LargestOfThree.java) |
 | 012 | switch-case — simple calculator | Conditionals | [Calculator.java](Day-012_Switch-Calculator/Calculator.java) |
+| 013 | for loop — multiplication table | Loops | [MultiplicationTable.java](Day-013_For-Loop-Multiplication-Table/MultiplicationTable.java) |
 
 ## Adding a day
 
