@@ -43,6 +43,7 @@ Class files are gitignored, so compiling in place is safe.
 | 011 | Nested if — largest of three | Conditionals | [LargestOfThree.java](Day-011_Nested-If-Largest/LargestOfThree.java) |
 | 012 | switch-case — simple calculator | Conditionals | [Calculator.java](Day-012_Switch-Calculator/Calculator.java) |
 | 013 | for loop — multiplication table | Loops | [MultiplicationTable.java](Day-013_For-Loop-Multiplication-Table/MultiplicationTable.java) |
+| 014 | while loop — reverse a number | Loops | [ReverseNumber.java](Day-014_While-Reverse-Number/ReverseNumber.java) |
 
 ## Adding a day
 
