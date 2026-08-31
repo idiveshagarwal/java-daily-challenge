@@ -47,6 +47,7 @@ Class files are gitignored, so compiling in place is safe.
 | 015 | do-while — menu-driven program | Loops | [MenuDrivenApp.java](Day-015_DoWhile-Menu/MenuDrivenApp.java) |
 | 016 | break & continue — prime check | Loops | [PrimeCheck.java](Day-016_Break-Continue-Prime/PrimeCheck.java) |
 | 017 | Star pyramid patterns | Patterns | [StarPatterns.java](Day-017_Star-Pyramid-Patterns/StarPatterns.java) |
+| 018 | Number & Floyd's triangle patterns | Patterns | [NumberPatterns.java](Day-018_Number-Floyd-Patterns/NumberPatterns.java) |
 
 ## Adding a day
 
