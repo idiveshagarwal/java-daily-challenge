@@ -48,6 +48,7 @@ Class files are gitignored, so compiling in place is safe.
 | 016 | break & continue — prime check | Loops | [PrimeCheck.java](Day-016_Break-Continue-Prime/PrimeCheck.java) |
 | 017 | Star pyramid patterns | Patterns | [StarPatterns.java](Day-017_Star-Pyramid-Patterns/StarPatterns.java) |
 | 018 | Number & Floyd's triangle patterns | Patterns | [NumberPatterns.java](Day-018_Number-Floyd-Patterns/NumberPatterns.java) |
+| 019 | 1D array — declare, store, traverse | Arrays | [ArrayBasics.java](Day-019_Arrays-1D/ArrayBasics.java) |
 
 ## Adding a day
 
