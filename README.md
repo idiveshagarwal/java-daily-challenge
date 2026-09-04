@@ -50,6 +50,7 @@ Class files are gitignored, so compiling in place is safe.
 | 018 | Number & Floyd's triangle patterns | Patterns | [NumberPatterns.java](Day-018_Number-Floyd-Patterns/NumberPatterns.java) |
 | 019 | 1D array — declare, store, traverse | Arrays | [ArrayBasics.java](Day-019_Arrays-1D/ArrayBasics.java) |
 | 020 | Linear search & finding max/min | Arrays | [LinearSearch.java](Day-020_Linear-Search-MaxMin/LinearSearch.java) |
+| 021 | Bubble sort on an array | Arrays | [BubbleSort.java](Day-021_Bubble-Sort/BubbleSort.java) |
 
 ## Adding a day
 
