@@ -51,6 +51,7 @@ Class files are gitignored, so compiling in place is safe.
 | 019 | 1D array — declare, store, traverse | Arrays | [ArrayBasics.java](Day-019_Arrays-1D/ArrayBasics.java) |
 | 020 | Linear search & finding max/min | Arrays | [LinearSearch.java](Day-020_Linear-Search-MaxMin/LinearSearch.java) |
 | 021 | Bubble sort on an array | Arrays | [BubbleSort.java](Day-021_Bubble-Sort/BubbleSort.java) |
+| 022 | 2D arrays — matrix addition | Arrays | [MatrixAddition.java](Day-022_2D-Arrays-Matrix-Addition/MatrixAddition.java) |
 
 ## Adding a day
 
