@@ -52,6 +52,7 @@ Class files are gitignored, so compiling in place is safe.
 | 020 | Linear search & finding max/min | Arrays | [LinearSearch.java](Day-020_Linear-Search-MaxMin/LinearSearch.java) |
 | 021 | Bubble sort on an array | Arrays | [BubbleSort.java](Day-021_Bubble-Sort/BubbleSort.java) |
 | 022 | 2D arrays — matrix addition | Arrays | [MatrixAddition.java](Day-022_2D-Arrays-Matrix-Addition/MatrixAddition.java) |
+| 023 | String basics & common methods | Strings | [StringBasics.java](Day-023_String-Basics/StringBasics.java) |
 
 ## Adding a day
 
