@@ -54,6 +54,7 @@ Class files are gitignored, so compiling in place is safe.
 | 022 | 2D arrays — matrix addition | Arrays | [MatrixAddition.java](Day-022_2D-Arrays-Matrix-Addition/MatrixAddition.java) |
 | 023 | String basics & common methods | Strings | [StringBasics.java](Day-023_String-Basics/StringBasics.java) |
 | 024 | Palindrome & reverse a string | Strings | [StringReversal.java](Day-024_Palindrome-Reverse/StringReversal.java) |
+| 025 | StringBuilder & string manipulation | Strings | [StringBuilderBasics.java](Day-025_StringBuilder/StringBuilderBasics.java) |
 
 ## Adding a day
 
