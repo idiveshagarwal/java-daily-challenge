@@ -56,6 +56,7 @@ Class files are gitignored, so compiling in place is safe.
 | 024 | Palindrome & reverse a string | Strings | [StringReversal.java](Day-024_Palindrome-Reverse/StringReversal.java) |
 | 025 | StringBuilder & string manipulation | Strings | [StringBuilderBasics.java](Day-025_StringBuilder/StringBuilderBasics.java) |
 | 026 | Writing your first method | Methods | [MethodBasics.java](Day-026_Methods-Basics/MethodBasics.java) |
+| 027 | Method overloading | Methods | [Overloading.java](Day-027_Method-Overloading/Overloading.java) |
 
 ## Adding a day
 
