@@ -58,6 +58,7 @@ Class files are gitignored, so compiling in place is safe.
 | 026 | Writing your first method | Methods | [MethodBasics.java](Day-026_Methods-Basics/MethodBasics.java) |
 | 027 | Method overloading | Methods | [Overloading.java](Day-027_Method-Overloading/Overloading.java) |
 | 028 | Pass by value — swapping demo | Methods | [SwapWorkarounds.java](Day-028_Pass-By-Value-Swap/SwapWorkarounds.java) |
+| 029 | Factorial & Fibonacci by recursion | Recursion | [Factorial.java](Day-029_Recursion-Factorial-Fibonacci/Factorial.java) |
 
 ## Adding a day
 
