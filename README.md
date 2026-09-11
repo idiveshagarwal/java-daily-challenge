@@ -57,6 +57,7 @@ Class files are gitignored, so compiling in place is safe.
 | 025 | StringBuilder & string manipulation | Strings | [StringBuilderBasics.java](Day-025_StringBuilder/StringBuilderBasics.java) |
 | 026 | Writing your first method | Methods | [MethodBasics.java](Day-026_Methods-Basics/MethodBasics.java) |
 | 027 | Method overloading | Methods | [Overloading.java](Day-027_Method-Overloading/Overloading.java) |
+| 028 | Pass by value — swapping demo | Methods | [SwapWorkarounds.java](Day-028_Pass-By-Value-Swap/SwapWorkarounds.java) |
 
 ## Adding a day
 
