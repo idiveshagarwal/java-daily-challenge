@@ -61,6 +61,7 @@ Class files are gitignored, so compiling in place is safe.
 | 029 | Factorial & Fibonacci by recursion | Recursion | [Factorial.java](Day-029_Recursion-Factorial-Fibonacci/Factorial.java) |
 | 030 | Tower of Hanoi — recursion wrap-up | Recursion | [TowerOfHanoi.java](Day-030_Tower-Of-Hanoi/TowerOfHanoi.java) |
 | 031 | Classes and objects — your first class | OOP | [BankAccount.java](Day-031_Classes-Objects/BankAccount.java) |
+| 032 | Constructors — default and parameterised | OOP | [Rectangle.java](Day-032_Constructors/Rectangle.java) |
 
 ## Adding a day
 
