@@ -63,6 +63,7 @@ Class files are gitignored, so compiling in place is safe.
 | 031 | Classes and objects — your first class | OOP | [BankAccount.java](Day-031_Classes-Objects/BankAccount.java) |
 | 032 | Constructors — default and parameterised | OOP | [Rectangle.java](Day-032_Constructors/Rectangle.java) |
 | 033 | this keyword, instance vs static members | OOP | [Player.java](Day-033_This-Static-Members/Player.java) |
+| 034 | Encapsulation — private fields, getters & setters | OOP | [Course.java](Day-034_Encapsulation/Course.java) |
 
 ## Adding a day
 
