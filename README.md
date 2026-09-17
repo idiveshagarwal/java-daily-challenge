@@ -64,6 +64,7 @@ Class files are gitignored, so compiling in place is safe.
 | 032 | Constructors — default and parameterised | OOP | [Rectangle.java](Day-032_Constructors/Rectangle.java) |
 | 033 | this keyword, instance vs static members | OOP | [Player.java](Day-033_This-Static-Members/Player.java) |
 | 034 | Encapsulation — private fields, getters & setters | OOP | [Course.java](Day-034_Encapsulation/Course.java) |
+| 035 | Inheritance — extends, parent and child classes | Inheritance | [Manager.java](Day-035_Inheritance-Extends/Manager.java) |
 
 ## Adding a day
 
